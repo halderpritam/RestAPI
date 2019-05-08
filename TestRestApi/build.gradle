@@ -1,0 +1,20 @@
+plugins {
+    id 'java'
+}
+
+version 'unspecified'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile group: 'io.rest-assured', name: 'rest-assured', version: '3.3.0'
+    compile group: 'io.rest-assured', name: 'spring-mock-mvc', version: '3.3.0'
+    compile group: 'io.rest-assured', name: 'json-schema-validator', version: '3.3.0'
+    compile group: 'io.rest-assured', name: 'spring-web-test-client', version: '3.3.0'
+    compile group: 'io.rest-assured', name: 'scala-support', version: '3.3.0'
+}
