@@ -17,4 +17,5 @@ dependencies {
     compile group: 'io.rest-assured', name: 'json-schema-validator', version: '3.3.0'
     compile group: 'io.rest-assured', name: 'spring-web-test-client', version: '3.3.0'
     compile group: 'io.rest-assured', name: 'scala-support', version: '3.3.0'
+    compile group: 'org.testng', name: 'testng', version: '6.9.4'
 }
